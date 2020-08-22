@@ -23,20 +23,20 @@ Se muestra para actualizar una location, con su nombre y area m2 cargados y list
 ##### Eliminar location
 Se muestra un botón para eliminar location y su respectiva confirmación
 ![Alt text](https://github.com/afrancom2/spring-app-location/blob/master/Eliminar.png "Eliminar location")
-![Alt text](https://github.com/afrancom2/spring-app-location/blob/master/Confirmar eliminar.png "Confirmacion Eliminar location")
+![Alt text](https://github.com/afrancom2/spring-app-location/blob/master/Confirmareliminar.png "Confirmacion Eliminar location")
 
 ## Notas importantes
 Lastimosamente no he manejado docker para los proyectos, por lo tanto no logre persistir la base
-de datos y se debe crear en MySql que es el motor que elegí.
+ de datos y se debe crear en MySql que es el motor que elegí.
 
 ## Creación de base de datos
-Solamente se debe crear la base de datos con el nombre db_prueba:
-Comando: create database db_prueba;
+Solamente se debe crear la base de datos con el nombre db_prueba.
+ Comando: create database db_prueba;
 
 ## Clave de usuario root de MySql
 Las claves del usuario root se pueden cambiar en la siguiente ubicación del proyecto de Spring Boot
-src/main/resources -> application.properties -> spring.datasource.password
-En mi caso tengo 1012, pero se debe colocar la contraseña correspondiente
+ src/main/resources -> application.properties -> spring.datasource.password
+ En mi caso tengo 1012, pero se debe colocar la contraseña correspondiente
 
 ## Clonar y ejecutar
 
