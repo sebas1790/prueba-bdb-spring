@@ -1,0 +1,1 @@
+INSERT INTO locations (name, area_m2) VALUES('calle 80', 80.0);
